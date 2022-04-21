@@ -12,7 +12,7 @@ function Navbar() {
             {/* Product Brand */}
             <Link to="/" className="navbar-brand p-3" >
                 <h2 className="text-warning m-0">
-                    <FontAwesomeIcon icon={ faUtensils} className="" /> 
+                    <FontAwesomeIcon icon={ faUtensils} className="px-lg-4 px-sm-2" /> 
                     Urbane Foods
                 </h2>
             </Link>

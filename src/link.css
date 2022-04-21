@@ -1,0 +1,5 @@
+.link:hover {
+  color: gold;
+  transform: scale(1.1);
+  -webkit-transition: all 0.3s ease;
+}

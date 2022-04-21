@@ -22,7 +22,7 @@ function Footer() {
                         <Link to="/products" className="btn btn-link">
                             Producs
                         </Link>
-                        <Link to="/" className="btn btn-link">
+                        <Link to="/contact" className="btn btn-link">
                             Contact
                         </Link>
                     </div>

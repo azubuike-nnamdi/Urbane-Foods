@@ -8,7 +8,7 @@ function Navbar() {
     return (
     <div className='container-xxl position-relative p-0'>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5
-        py-3 py-lg-0">
+        py-3 py-lg-0 sticky-top">
             {/* Product Brand */}
             <Link to="/" className="navbar-brand p-3" >
                 <h2 className="text-warning m-0">

@@ -27,7 +27,7 @@ function Navbar() {
             {/* nav content + Links */}
             <div className="collapse navbar-collapse"
             id='navbarCollapse'>
-                <div className="navbar-nav ms-auto py-0">
+                <div className="navbar-nav ms-auto py-0 px-3 text-start">
                     <Link to="/" className="nav-item nav-link active">
                         Home
                     </Link>
@@ -41,7 +41,7 @@ function Navbar() {
                         Contact
                     </Link>
                 </div>
-                <Link to="/" className="btn btn-warning py-2 px-2">
+                <Link to="/" className="btn btn-warning py-2 px-4 justify-start">
                     Book A Table
                 </Link>
             </div>

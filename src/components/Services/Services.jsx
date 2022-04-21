@@ -63,7 +63,7 @@ function Services() {
                         <div className="service-item rounded-pt-3">
                             <div className="p-4">
                                 <FontAwesomeIcon icon={faHeadset} className="fa-3x text-warning mb-3" />
-                                <h5>
+                                <h5 className="pt-3">
                                     Customer Care
                                 </h5>
                                 <p>

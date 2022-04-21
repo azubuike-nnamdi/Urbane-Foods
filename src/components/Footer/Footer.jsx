@@ -95,7 +95,7 @@ function Footer() {
                         <div className="row">
                             <div className="col-md-6 text-center text-md-start
                             mb-3 mb-md-0">
-                                &copy; SideHustle Restuarant Group 2, All Rights Reserved.
+                                &copy; SideHustle Restuarant Group 23, All Rights Reserved.
                             </div>
                             <div className="col-md-6 text-center text-md-end">
                                 <div className="footer-menu">

@@ -1,9 +1,14 @@
-# Getting Started with Urbane Foods
-
 ### SideHustle Internship Group 23 Capstone Restuarant Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), 
 and it is aimed at monitoring the growth of interns.
+
+# Getting Started with Urbane Foods
+
+Team members are expected to fork the repository and cloning to local machine using
+`git clone [repo url]`
+
+Install project dependencies with `npm install`
 
 ## Available Scripts
 

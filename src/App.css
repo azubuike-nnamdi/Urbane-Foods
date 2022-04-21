@@ -95,6 +95,7 @@
   transition: .5s;
 }
 
+
 .sticky-top.navbar-dark .navbar-nav .nav-link {
   padding: 20px 0;
 }
@@ -109,7 +110,7 @@
   transition: .5s;
 }
 
-.sticky-top.navbar-dark .navbar-brand img {
+.sticky-top .navbar-dark .navbar-brand img {
   max-height: 45px;
 }
 

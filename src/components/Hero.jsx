@@ -4,7 +4,7 @@ function Hero () {
     return (
         <div>
             <div className="container-xxl py-5 bg-dark hero-header mb-5">
-                <div className="container my-5 py-">
+                <div className="container my-5 py-4">
                     <div className="row align-items-center g-5">
                         <div className="col-lg-6 text-center text-lg-start">
                             <h1 className="display-3 text-white animated slideInLeft">

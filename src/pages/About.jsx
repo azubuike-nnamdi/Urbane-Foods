@@ -2,7 +2,15 @@ import React from 'react'
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <div className="container-xxl py-5 ">
+        <div className="container my-5 py-4">
+          <div className="row g-5">
+            welcome to home page
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
 

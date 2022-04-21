@@ -28,16 +28,20 @@ function Navbar() {
             <div className="collapse navbar-collapse"
             id='navbarCollapse'>
                 <div className="navbar-nav ms-auto py-0 px-3 text-start">
-                    <Link to="/" className="nav-item nav-link active">
+                    <Link to="/" className="nav-item nav-link active
+                    link-underline link-underline-warning">
                         Home
                     </Link>
-                    <Link to="/about" className="nav-item nav-link active">
+                    <Link to="/about" className="nav-item nav-link active
+                    link-underline link-underline-warning">
                         About
                     </Link>
-                    <Link to="/products" className="nav-item nav-link active">
+                    <Link to="/products" className="nav-item nav-link active
+                    link-underline link-underline-warning">
                         Products
                     </Link>
-                    <Link to="/contact" className="nav-item nav-link active">
+                    <Link to="/contact" className="nav-item nav-link active
+                    link-underline link-underline-warning">
                         Contact
                     </Link>
                 </div>

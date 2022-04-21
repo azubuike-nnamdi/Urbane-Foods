@@ -1,3 +1,5 @@
+
+
 :root {
   --primary: #FEA116;
   --light: #F1F8FF;
@@ -95,6 +97,27 @@
 
 .sticky-top.navbar-dark .navbar-brand img {
   max-height: 45px;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  padding-bottom: 2px;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 7px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .3s ease;
+}
+
+.link-underline-warning {
+  padding-top: 2px;
+  background-image: linear-gradient(transparent, transparent), 
+  linear-gradient(rgb(205, 185, 10), rgb(213, 192, 5))
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%
 }
 
 @media (max-width: 991.98px) {

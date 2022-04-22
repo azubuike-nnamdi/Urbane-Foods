@@ -6,6 +6,7 @@ import { faBars, faUtensils } from '@fortawesome/free-solid-svg-icons'
 function Navbar() {
 
     return (
+      <div className='row'>
     <div className='container-xxl position-relative p-0'>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5
         py-3 py-lg-0 sticky-top">
@@ -52,6 +53,7 @@ function Navbar() {
             </div>
         </nav>
     </div>
+        </div>
 )
 }
 

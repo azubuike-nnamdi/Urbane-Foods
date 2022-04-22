@@ -1,6 +1,7 @@
+import AboutHome from '../components/Dashboard/AboutHome'
 import Hero from '../components/Hero'
 import Services from '../components/Services/Services'
-import About from './About'
+
 
 
 function Homepage() {
@@ -8,7 +9,7 @@ function Homepage() {
     <div>
       <Hero />
       <Services />
-      <About />
+      <AboutHome />
     </div>
   )
 }

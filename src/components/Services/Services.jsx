@@ -20,7 +20,7 @@ function Services() {
                             <div className="p-4">
                                 <FontAwesomeIcon icon={faUserTie} className="fa-3x text-warning mb-3"/>
                                 <h5>
-                                    Chef
+                                    Chief Chef
                                 </h5>
                                 <p>
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, deserunt.

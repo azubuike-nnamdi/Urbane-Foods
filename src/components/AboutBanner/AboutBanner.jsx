@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function AboutBanner() {
   return (
@@ -12,19 +13,19 @@ function AboutBanner() {
               </h1>
               <div className="d-flex justify-content-center align-items-center">
                 <li>
-                  <a className="text-decoration-none text-white" href="/">
+                  <Link className="text-decoration-none text-white" to="/">
                     HOME /
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-decoration-none text-white" href="/">
-                    PAGES /{" "}
-                  </a>
-                </li>
-                <li>
-                  <a className="text-decoration-none text-white" href="/">
+                  <Link className="text-decoration-none text-white" to="/about">
                     ABOUT /{" "}
-                  </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-decoration-none text-white" to="/contact">
+                    Contact /{" "}
+                  </Link>
                 </li>
               </div>
             </div>

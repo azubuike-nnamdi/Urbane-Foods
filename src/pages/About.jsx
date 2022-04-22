@@ -1,17 +1,16 @@
-import React from 'react'
+import AboutBanner from "../components/AboutBanner/AboutBanner";
+import AboutWelcom from "../components/AboutWelcom/AboutWelcom";
+import AboutStaff from "../components/AboutStaff/AboutStaff";
+import React from "react";
 
 function About() {
   return (
     <div>
-      <div className="container-xxl py-5 ">
-        <div className="container my-5 py-4">
-          <div className="row g-5">
-            welcome to home page
-          </div>
-        </div>
-      </div>
+      <AboutBanner />
+      <AboutWelcom />
+      <AboutStaff />
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

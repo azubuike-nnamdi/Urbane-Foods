@@ -1,5 +1,7 @@
+import AboutHome from '../components/Dashboard/AboutHome'
 import Hero from '../components/Hero'
 import Services from '../components/Services/Services'
+
 
 
 function Homepage() {
@@ -7,6 +9,7 @@ function Homepage() {
     <div>
       <Hero />
       <Services />
+      <AboutHome />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import Product from "../components/Product";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBurger,
@@ -12,31 +12,34 @@ import {
 function Products() {
   return (
     <div>
-      <div class="container-xxl py-5 bg-dark hero-header mb-5">
-        <div class="container text-center my-5 pt-5 pb-4">
-          <h1 class="display-3 text-white mb-3 animated slideInDown">
+      <div className="container-xxl py-5 bg-dark hero-header mb-5">
+        <div className="container text-center my-5 pt-5 pb-4">
+          <h1 className="display-3 text-white mb-3 animated slideInDown">
             Urbane Foods Amazing Products
           </h1>
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb justify-content-center text-uppercase">
               <div className="d-flex justify-content-center align-items-center">
                 <li>
-                  <Link className="text-decoration-none text-white" to="/">
+                  <NavLink className="text-decoration-none text-white" to="/">
                     HOME /
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link className="text-decoration-none text-white" to="/about">
-                    ABOUT /{" "}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="text-decoration-none text-white"
-                    to="/contact"
+                  <NavLink
+                    className="text-decoration-none text-white ms-1"
+                    to="/about"
                   >
-                    Contact /{" "}
-                  </Link>
+                    ABOUT /
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className="text-decoration-none text-white ms-1"
+                    to="/products"
+                  >
+                    PRODUCTS
+                  </NavLink>
                 </li>
               </div>
             </ol>

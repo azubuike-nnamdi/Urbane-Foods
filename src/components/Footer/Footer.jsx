@@ -82,7 +82,10 @@ function Footer() {
                 >
                   Newsletter
                 </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>
+                  Get updated our on new dishes and delicious discounts by
+                  subscribing to our newsletter.
+                </p>
                 <div className="position-relative mx-auto" max-width="400px">
                   <input
                     className="form-control border-warning w-100 py-3

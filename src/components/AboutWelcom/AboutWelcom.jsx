@@ -72,17 +72,16 @@ function AboutWelcom() {
               </h5>
               <h1 class="mb-4">
                 Welcome to <i class="fa fa-utensils text-warning me-2"></i>
-                Restoran
+                Urbane Foods
               </h1>
               <p class="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet
-                lorem sit.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis minima voluptatum 
+                vero excepturi, inventore nihil.
               </p>
               <p class="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis laudantium eligendi 
+                quibusdam totam magni saepe fugiat doloremque possimus dicta. 
+                Deserunt, non ea? Fugit, perferendis?
               </p>
               <div class="row g-4 mb-4">
                 <div class="col-sm-6">

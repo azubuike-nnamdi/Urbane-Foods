@@ -1,19 +1,21 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Chair from "../../assets/about-1.jpg";
 import Chair2 from "../../assets/about-2.jpg";
 import Chair3 from "../../assets/about-3.jpg";
 import Chair4 from "../../assets/about-4.jpg";
+import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 function AboutWelcom() {
   return (
     <div>
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-5 align-items-center">
-            <div class="col-lg-6">
-              <div class="row g-3">
-                <div class="col-6 text-start">
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-6">
+              <div className="row g-3">
+                <div className="col-6 text-start">
                   <img
-                    class="img-fluid rounded w-100 wow zoomIn"
+                    className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.1s"
                     src={Chair}
                     alt="hello"
@@ -24,9 +26,9 @@ function AboutWelcom() {
                     }}
                   />
                 </div>
-                <div class="col-6 text-start">
+                <div className="col-6 text-start">
                   <img
-                    class="img-fluid rounded w-75 wow zoomIn"
+                    className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.3s"
                     src={Chair2}
                     alt="hello"
@@ -38,9 +40,9 @@ function AboutWelcom() {
                     }}
                   />
                 </div>
-                <div class="col-6 text-end">
+                <div className="col-6 text-end">
                   <img
-                    class="img-fluid rounded w-75 wow zoomIn"
+                    className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.5s"
                     src={Chair3}
                     alt="hello"
@@ -51,9 +53,9 @@ function AboutWelcom() {
                     }}
                   />
                 </div>
-                <div class="col-6 text-end">
+                <div className="col-6 text-end">
                   <img
-                    class="img-fluid rounded w-100 wow zoomIn"
+                    className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.7s"
                     src={Chair4}
                     alt="hello"
@@ -66,54 +68,69 @@ function AboutWelcom() {
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <h5 class="section-title ff-secondary text-start text-warning fw-normal">
+            <div className="col-lg-6">
+              <h3 className="section-title ff-secondary text-start text-warning fw-normal">
                 About Us
-              </h5>
-              <h1 class="mb-4">
-                Welcome to <i class="fa fa-utensils text-warning me-2"></i>
-                Urbane Foods
+              </h3>
+              <h1 className="mb-4">
+                <FontAwesomeIcon
+                  icon={faUtensils}
+                  className="fa fa-utensils text-warning me-2"
+                />
+                Urbane Food's story
               </h1>
-              <p class="mb-4">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis minima voluptatum 
-                vero excepturi, inventore nihil.
+              <p className="mb-4">
+                CEO, Ajayi Tomiwa, opened the first Urbane Foods Restaurant in
+                Ibadan on September 27, 1977. Today, there are 37 branches all
+                over West Africa. Urbane Foods Restaurants are well known with a
+                substantial gathering of people including families, kids,
+                seniors, and business experts. Our benevolent condition is
+                perfect for praising unique events, facilitating a business
+                lunch, or assembling for a flavorful dinner with loved ones.
+                Open day by day for lunch and dinner, Urbane Foods offers a
+                choice of naturally arranged things utilizing just the best
+                fixings accessible.
               </p>
-              <p class="mb-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis laudantium eligendi 
-                quibusdam totam magni saepe fugiat doloremque possimus dicta. 
-                Deserunt, non ea? Fugit, perferendis?
+              <p className="mb-4">
+                Our top picks incorporate crisp fish, rotisserie chicken, infant
+                back pork ribs. New prepared pot pie, strength plates of mixed
+                greens, wood-let go pizzas, pasta, sandwiches, burgers, and
+                more. Urbane Food's heated merchandise and treats including our
+                Six-Layer Chocolate Motherlode Cake, Scratch Carrot Cake, and
+                delectably rich cream cheddar pies are prevalent top choices
+                with our visitors.
               </p>
-              <div class="row g-4 mb-4">
-                <div class="col-sm-6">
-                  <div class="d-flex align-items-center border-start border-5 border-warning px-3">
+              <div className="row g-4 mb-4">
+                <div className="col-sm-6">
+                  <div className="d-flex align-items-center border-start border-5 border-warning px-3">
                     <h1
-                      class="flex-shrink-0 display-5 text-warning mb-0"
+                      className="flex-shrink-0 display-5 text-warning mb-0"
                       data-toggle="counter-up"
                     >
                       15
                     </h1>
-                    <div class="ps-4">
-                      <p class="mb-0">Years of</p>
-                      <h6 class="text-uppercase mb-0">Experience</h6>
+                    <div className="ps-4">
+                      <p className="mb-0">Years of</p>
+                      <h6 className="text-uppercase mb-0">Experience</h6>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-6">
-                  <div class="d-flex align-items-center border-start border-5 border-warning px-3">
+                <div className="col-sm-6">
+                  <div className="d-flex align-items-center border-start border-5 border-warning px-3">
                     <h1
-                      class="flex-shrink-0 display-5 text-warning mb-0"
+                      className="flex-shrink-0 display-5 text-warning mb-0"
                       data-toggle="counter-up"
                     >
                       50
                     </h1>
-                    <div class="ps-4">
-                      <p class="mb-0">Popular</p>
-                      <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                    <div className="ps-4">
+                      <p className="mb-0">Popular</p>
+                      <h6 className="text-uppercase mb-0">Master Chefs</h6>
                     </div>
                   </div>
                 </div>
               </div>
-              <a class="btn btn-warning py-3 px-5 mt-2" href="/">
+              <a className="btn btn-warning py-3 px-5 mt-2" href="/">
                 Read More
               </a>
             </div>

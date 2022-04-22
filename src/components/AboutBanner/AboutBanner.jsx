@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function AboutBanner() {
   return (
@@ -11,21 +11,26 @@ function AboutBanner() {
               <h1 className="display-3 text-white text-center animated slideInLeft">
                 About Us
               </h1>
-              <div className="d-flex justify-content-center align-items-center">
+              <div className="d-flex justify-content-center align-items-center breadcrumb">
                 <li>
-                  <Link className="text-decoration-none text-white" to="/">
-                    HOME /
-                  </Link>
+                  <NavLink className="text-decoration-none text-white" to="/">
+                    HOME
+                    <span className="text-white"> / </span>
+                  </NavLink>
+                </li>
+                <li className="text-white">
+                  <NavLink className="text-decoration-none ms-1" to="/about">
+                    ABOUT
+                    <span className="text-white"> / </span>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link className="text-decoration-none text-white" to="/about">
-                    ABOUT /{" "}
-                  </Link>
-                </li>
-                <li>
-                  <Link className="text-decoration-none text-white" to="/contact">
-                    Contact /{" "}
-                  </Link>
+                  <NavLink
+                    className="text-decoration-none text-white ms-1"
+                    to="/contact"
+                  >
+                    CONTACT
+                  </NavLink>
                 </li>
               </div>
             </div>

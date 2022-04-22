@@ -11,8 +11,8 @@ function Hero() {
                 Enjoy Our Delicious Meal
               </h1>
               <p className="text-white animated slideInLeft mb-4 pb-2">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Placeat minus, dolorem tempora veritatis nihil dolores?
+                Our menu offers something for everybody, from excellent client
+                benefit to the best quality fixings.
               </p>
               <a
                 href="https://"

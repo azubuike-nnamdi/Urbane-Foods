@@ -67,11 +67,11 @@ function AboutWelcom() {
               </div>
             </div>
             <div class="col-lg-6">
-              <h5 class="section-title ff-secondary text-start text-primary fw-normal">
+              <h5 class="section-title ff-secondary text-start text-warning fw-normal">
                 About Us
               </h5>
               <h1 class="mb-4">
-                Welcome to <i class="fa fa-utensils text-primary me-2"></i>
+                Welcome to <i class="fa fa-utensils text-warning me-2"></i>
                 Restoran
               </h1>
               <p class="mb-4">
@@ -86,9 +86,9 @@ function AboutWelcom() {
               </p>
               <div class="row g-4 mb-4">
                 <div class="col-sm-6">
-                  <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                  <div class="d-flex align-items-center border-start border-5 border-warning px-3">
                     <h1
-                      class="flex-shrink-0 display-5 text-primary mb-0"
+                      class="flex-shrink-0 display-5 text-warning mb-0"
                       data-toggle="counter-up"
                     >
                       15
@@ -100,9 +100,9 @@ function AboutWelcom() {
                   </div>
                 </div>
                 <div class="col-sm-6">
-                  <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                  <div class="d-flex align-items-center border-start border-5 border-warning px-3">
                     <h1
-                      class="flex-shrink-0 display-5 text-primary mb-0"
+                      class="flex-shrink-0 display-5 text-warning mb-0"
                       data-toggle="counter-up"
                     >
                       50
@@ -114,7 +114,7 @@ function AboutWelcom() {
                   </div>
                 </div>
               </div>
-              <a class="btn btn-primary py-3 px-5 mt-2" href="/">
+              <a class="btn btn-warning py-3 px-5 mt-2" href="/">
                 Read More
               </a>
             </div>

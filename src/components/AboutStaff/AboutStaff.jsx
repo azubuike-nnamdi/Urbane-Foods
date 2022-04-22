@@ -1,4 +1,4 @@
-import React from "react";
+
 
 function AboutStaff() {
   return (
@@ -14,7 +14,7 @@ function AboutStaff() {
               animationName: "fadeInUp",
             }}
           >
-            <h5 class="section-title ff-secondary text-center text-primary fw-normal">
+            <h5 class="section-title ff-secondary text-center text-warning fw-normal">
               Team Members
             </h5>
             <h1 class="mb-5">Our Master Chefs</h1>

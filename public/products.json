@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "title": "pizza",
+    "price": 15,
+    "img": "menu-7.jpg",
+    "category": "Popular",
+    "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Burger",
+    "price": 15,
+    "img": "menu-1.jpg",
+    "category": "Special",
+    "discount": 17.5555,
+    "description": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+  },
+  {
+    "id": 3,
+    "title": "Steak",
+    "price": 35,
+    "img": "menu-4.jpg",
+    "category": "Popular",
+    "discount": 20,
+    "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "id": 4,
+    "title": "Bacon n Fries",
+    "price": 17,
+    "img": "menu-6.jpg",
+    "category": "Special",
+    "description": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+  },
+  {
+    "id": 5,
+    "title": "Veggie pizza",
+    "price": 12,
+    "img": "menu-3.jpg",
+    "category": "Popular",
+    "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "id": 6,
+    "title": "Steak",
+    "price": 35,
+    "img": "menu-4.jpg",
+    "category": "Dinner",
+    "discount": 20,
+    "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "id": 7,
+    "title": "Bacon n Fries",
+    "price": 17,
+    "img": "menu-6.jpg",
+    "category": "Special",
+    "description": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+  },
+  {
+    "id": 8,
+    "title": "Veggie pizza",
+    "price": 12,
+    "img": "menu-3.jpg",
+    "category": "Dinner",
+    "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  }
+]

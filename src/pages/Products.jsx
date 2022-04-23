@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 import Product from "../components/Product";
 import { NavLink } from "react-router-dom";
@@ -10,6 +10,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 function Products() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="container-xxl py-5 bg-dark hero-header mb-5">

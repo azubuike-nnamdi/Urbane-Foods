@@ -29,7 +29,7 @@ function Footer() {
                 About Us
               </NavLink>
               <NavLink to="/products" className="btn btn-link">
-                Producs
+                Products
               </NavLink>
               <NavLink to="/contact" className="btn btn-link">
                 Contact

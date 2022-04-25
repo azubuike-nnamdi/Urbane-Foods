@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   return (
@@ -18,6 +18,16 @@ function Navbar() {
               Urbane Foods
             </h2>
           </Link>
+
+          {/* Toogler */}
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <FontAwesomeIcon icon={faBars} />
+          </button>
 
           {/* nav content + Links */}
           <div className="collapse navbar-collapse" id="navbarCollapse">

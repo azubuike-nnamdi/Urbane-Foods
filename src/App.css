@@ -100,7 +100,8 @@
 .navbar-dark .navbar-nav .nav-link.active,
 .text-custom-main,
 .breadcrumb a.active,
-.breadcrumb a:hover {
+.breadcrumb a:hover,
+.footer a.active {
   color: var(--primary) !important;
 }
 

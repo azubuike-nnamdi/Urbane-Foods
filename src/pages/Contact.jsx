@@ -1,9 +1,13 @@
 // import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div class="container-xxl bg-white p-0">
